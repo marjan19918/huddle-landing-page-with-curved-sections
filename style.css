@@ -295,8 +295,14 @@ input:hover{
 .submitbutton:hover{
     background-color: var(--color-Light-Pink);
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:640px) {
+    header{
+        padding: 5px;
+    }
     footer{
+        flex-direction: column;
+    }
+    .footinput{
         flex-direction: column;
     }
     
@@ -310,7 +316,7 @@ input:hover{
         flex-direction: column;
     }
     .sectiondiv{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
     }
     footer{
